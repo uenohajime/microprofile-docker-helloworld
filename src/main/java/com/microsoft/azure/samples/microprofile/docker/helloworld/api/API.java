@@ -12,7 +12,7 @@ import static javax.ws.rs.core.MediaType.TEXT_HTML;
 public class API {
 
     @GET
-    @Path("/helloworld")
+    @Path("helloworld")
     @Produces(TEXT_HTML)
     public String info() {
         return "Hello, world!";
