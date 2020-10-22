@@ -1,6 +1,5 @@
 FROM payara/micro
 
-ARG WAR_FILE
-COPY target/${WAR_FILE} $DEPLOY_DIR
+COPY target/microprofile.war $DEPLOY_DIR
 
 EXPOSE 8080
